@@ -1,3 +1,5 @@
+
+// FOR Number Conversion
 let score = "22" 
 
 console.log(typeof score );
@@ -7,23 +9,22 @@ let valueInNumber = Number(score)
 console.log(typeof valueInNumber);
 console.log(valueInNumber);
 
-
 // "22"  => 22
 // null => 0
 // undefined=>NaN
 // "33abc" => NaN
 // true =>1 / false =>0
 
+// for Boolean Conversion
 let isLoggedIn=1
 let booleanIsLoggedIn=Boolean(isLoggedIn)
 console.log(booleanIsLoggedIn);
-
 
 // 1 => true; o=> false
 //  "" => false
 // "priya"=> true
 
-
+// for String conversion
 let someNumber=33
 let stringNumber=String(someNumber);
 console.log(stringNumber);
